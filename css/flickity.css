@@ -139,9 +139,9 @@ http://flickity.metafizzy.co
 }
 
 .gallery-cell {
-  width: 66%;
-  height: 800px;
-  margin-right: 10px;
+  width: 82%;
+  height: 500px;
+  margin-right: 80px;
   background: #8C8;
   counter-increment: gallery-cell;
 }
