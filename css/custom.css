@@ -1,0 +1,41 @@
+
+/* main content */
+
+.main {
+	max-width: 90%;
+	margin: 9rem auto 0;
+}
+
+/* nav */
+
+nav {
+	float: right;
+}
+
+.side-title {
+	float: left;
+	top: 70%;
+    position: absolute;	
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+
+/* typography */
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
