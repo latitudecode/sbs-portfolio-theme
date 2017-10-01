@@ -14,11 +14,26 @@
 
 
 
-
 .flickity-prev-next-button.previous,
 .flickity-prev-next-button,
 .flickity-page-dots {
     display: none;
+}
+
+
+.gallery-cell img {
+    width: 100%;
+}
+
+.gallery-cell .content {
+	height: 100%;
+}
+
+.gallery-cell .content h2 {
+	position: absolute;
+    top: 92%;
+    left: 30px;
+    color: #fff;
 }
 
 .projects, .instagram {
@@ -39,6 +54,8 @@
 	position: relative !important;
     left: -34% !important;
 }
+
+
 
 /* nav */
 
@@ -61,6 +78,8 @@ nav {
 .side-title-2 {
 	top: 92%;
 }
+
+
 
 
 /* typography */

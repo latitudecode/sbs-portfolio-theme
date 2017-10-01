@@ -134,24 +134,14 @@ http://flickity.metafizzy.co
 /* external css: flickity.css */
 
 .gallery {
-  background: #FAFAFA;
+  background: #fff;
 
 }
 
 .gallery-cell {
   width: 82%;
-  height: 500px;
+  height: 600px;
   margin-right: 80px;
   background: #8C8;
   counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 650px;
-  font-size: 80px;
-  color: white;
 }
