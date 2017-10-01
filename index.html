@@ -20,7 +20,8 @@
         var userFeed = new Instafeed({
             get: 'user',
             userId: '34417750',
-            accessToken: '34417750.3f949ca.5a06e03e1dda4dd0ae68c0504da0c004'
+            accessToken: '34417750.3f949ca.5a06e03e1dda4dd0ae68c0504da0c004',
+            template: '<div class="gallery-cell"><a href="{{link}}"><img src="{{image}}" /></a></div>'
         });
         userFeed.run();
     </script>    
@@ -70,16 +71,11 @@
 <!-- instagram -->
 <div class="move">
     <div class="instagram gallery">
+
+      <div id="instafeed"></div>  
       <div class="gallery-cell"></div>
       <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>
-      <div class="gallery-cell"></div>      
+
     </div>  
 </div>
 <!-- instagram -->
