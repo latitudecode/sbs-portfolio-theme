@@ -7,8 +7,21 @@
 }
 
 
+.projects .flickity-slider {
+	position: relative !important;
+	left: -3% !important;
+}
 
-.flickity, .instagram {
+
+
+
+.flickity-prev-next-button.previous,
+.flickity-prev-next-button,
+.flickity-page-dots {
+    display: none;
+}
+
+.projects, .instagram {
     padding-top: 8%;
 }
 
@@ -16,10 +29,15 @@
 	margin-bottom: 15%;
 }
 
-.flickity-prev-next-button.previous,
-.flickity-prev-next-button,
-.flickity-page-dots {
-    display: none;
+.instagram .gallery-cell {
+	width: 20%;
+    height: 260px;
+
+}
+
+.instagram .flickity-slider {
+	position: relative !important;
+    left: -34% !important;
 }
 
 /* nav */
