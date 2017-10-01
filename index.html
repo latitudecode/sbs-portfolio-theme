@@ -1,0 +1,61 @@
+<html>
+<head>
+
+    <!-- make it responsive -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />               
+    <link rel="stylesheet" type="text/css" href="css/grid.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/animsition.css" />
+    <link rel="stylesheet" type="text/css" href="css/instagram.css" />
+    <link rel="stylesheet" type="text/css" href="css/flickity.css" />
+    <!-- JS -->
+    <!-- flickity -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>     
+    <!-- instagram -->
+    <script src="js/instafeed.js"></script>      
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: '34417750',
+            accessToken: '34417750.3f949ca.5a06e03e1dda4dd0ae68c0504da0c004'
+        });
+        userFeed.run();
+    </script>    
+
+
+
+</head>
+
+<body>
+
+<header>
+</header>
+hi
+
+<footer>
+</footer>
+
+
+    <!-- JS -->
+    <!-- flickity -->
+    <script>
+    var $gallery = $('.gallery').flickity();
+    $('body').on( 'click', function() {
+        console.log('click')  
+    });
+    </script>    
+    <!-- animstion -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/animsition.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.animsition').animsition();
+      });
+    </script>  
+
+</body>
+
+</html>
