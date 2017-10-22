@@ -8,7 +8,7 @@
       this.options = {
         target: 'instafeed',
         get: 'popular',
-        resolution: 'standard_resolution',
+        resolution: 'thumbnail',
         sortBy: 'none',
         links: true,
         mock: false,
