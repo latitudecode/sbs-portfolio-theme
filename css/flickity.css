@@ -145,3 +145,11 @@ http://flickity.metafizzy.co
   background: #8C8;
   counter-increment: gallery-cell;
 }
+
+.gallery-cell-ig {
+  width: 82%;
+  height: 100%;
+  margin-right: 80px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
