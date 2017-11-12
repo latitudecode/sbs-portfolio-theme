@@ -68,7 +68,9 @@
 
 <!-- end flickity gallery -->  
 
-<div id="instafeed"></div> 
+    <div class="projects gallery">
+      <div id="instafeed"></div>  
+    </div>
 
 <!-- side title -->
 <div class="side-title-1">
