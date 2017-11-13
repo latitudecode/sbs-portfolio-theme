@@ -2,7 +2,7 @@
 /* main content */
 
 .main {
-	max-width: 90%;
+	max-width: 89%;
 	margin: 9rem auto 0;
 }
 
@@ -79,12 +79,12 @@ nav a {
 }
 
 .side-title-1 {
-	top: 49%;
+	top: 420px;
 	left: -1%;	
 }
 
 .side-title-2 {
-	top: 129%;
+	top: 1110px;
 	left: -1%;
 }
 
@@ -116,6 +116,13 @@ h4 {
 	letter-spacing: 2px;
 
 }
+
+/* Instagram */
+
+.instashow-gallery-container {
+    padding-left: 14px !important;
+}
+
 
 /* removals */
 
