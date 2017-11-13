@@ -1,5 +1,5 @@
 
-/* main content */
+/* HOME - main content */
 
 .main {
 	max-width: 89%;
@@ -56,6 +56,25 @@
     left: -34% !important;
 }
 
+/* PROJECT - main content */
+
+div.content {
+	margin-top: 114px;
+}
+
+div.content img {
+    width: 82%;
+    height: auto;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    background: #000;
+}
+
+
+.next-up {
+	margin-bottom: 200px;
+}
 
 
 /* nav */
@@ -87,6 +106,29 @@ nav a {
 	top: 1110px;
 	left: -1%;
 }
+
+.exit {
+	width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #252525;
+    position: relative;
+}
+
+.exit span {
+	height: 2px;
+	width: 12px;
+	background-color: #fff;
+	position: absolute;
+	top: 48%;
+    left: 39%;
+	transform: rotate(-45deg) translate3d(0,0,0);
+}
+
+.exit span:last-child {
+	transform: rotate(45deg) translate3d(0,0,0);
+}
+
 
 
 /* typography */
@@ -131,8 +173,34 @@ figure.hover-effect {
 
 figure.hover-effect:hover {
   	opacity: .6;
-
 }
+
+a {
+	text-decoration: none;
+	color: #252525;
+	-webkit-transition: opacity .8s;
+	transition: opacity .8s;	
+}
+
+a:active {
+	opacity: 1;	
+}
+
+a:hover {
+	opacity: .6; 
+}
+
+
+a .exit {
+	-webkit-transition: opacity .8s;
+	transition: opacity .8s;
+}
+
+a:hover .exit {
+	opacity: .6;
+	
+}
+
 
 /* Instagram */
 

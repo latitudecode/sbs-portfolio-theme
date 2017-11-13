@@ -1,0 +1,220 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+
+
+
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+
+
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 375px) {
+
+.main h1 {
+	font-size: 28px;
+}
+
+.main h2 {
+	font-size: 14px;
+}
+
+.gallery-cell {
+	height: 200px;
+	width: 78%;
+	margin-right: 35px;
+}
+
+.gallery-cell .content h2 {
+    font-size: 13px;
+    left: 15px;
+    top: 175px;
+}
+
+.main {
+	max-width: 86%;
+}
+
+.side-title-1,
+.side-title-2 {
+	display: none;
+}
+
+div.content {
+    margin-top: 70px;
+}
+
+div.content img {
+	margin-left: 30px;
+}
+
+.exit {
+    bottom: 125px;
+    left: 8px;	
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 330px) {
+
+.main h1 {
+	font-size: 23px;
+}	
+
+.main h2 {
+	font-size: 13px;
+}
+
+div.content img {
+	margin-bottom: 25px;
+	margin-left: 25px;
+    margin-right: 0px;
+}
+
+div.content img {
+	width: 84%;
+}
+
+}	
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+.side-title-1 {
+    top: 255px;
+    left: -2%;
+}
+
+.side-title-2 {
+    top: 936px;
+    left: -2%;
+}
+
+div.content img {
+	margin-left: 60px;
+}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.gallery-cell {
+	height: 420px;
+}
+
+.side-title-1 {
+    top: 235px;
+    left: -3.5%;
+}
+
+.side-title-2 {
+    top: 709px;
+    left: -3.5%;
+}
+
+.side-title-1 h4,
+.side-title-2 h4  {
+	font-size: 11px;
+}
+
+.gallery-cell .content h2 {
+	font-size: 14px;
+	left: 22px;
+}
+
+.gallery-cell {
+	margin-right: 40px;
+}
+
+div.content img {
+    margin-left: 40px;
+    margin-bottom: 30px;	
+}
+
+.next-up h1 {
+	font-size: 48px;
+}
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (max-device-width : 1024px) {
+
+
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-device-width : 1024px) {
+
+
+
+}
+
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
