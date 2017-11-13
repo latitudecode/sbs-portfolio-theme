@@ -142,6 +142,6 @@ http://flickity.metafizzy.co
   width: 82%;
   height: 600px;
   margin-right: 80px;
-  background: #8C8;
+  background: #000;
   counter-increment: gallery-cell;
 }

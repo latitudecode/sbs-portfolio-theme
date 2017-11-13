@@ -117,6 +117,23 @@ h4 {
 
 }
 
+
+/* hovers */
+
+.hover-effect {
+	-webkit-transition: opacity .8s;
+	transition: opacity .8s;
+}
+
+figure.hover-effect {
+  	opacity: 1;
+}
+
+figure.hover-effect:hover {
+  	opacity: .6;
+
+}
+
 /* Instagram */
 
 .instashow-gallery-container {
