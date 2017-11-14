@@ -48,11 +48,6 @@ and (max-width : 375px) {
 	max-width: 86%;
 }
 
-.side-title-1,
-.side-title-2 {
-	display: none;
-}
-
 div.content {
     margin-top: 70px;
 }
@@ -67,6 +62,31 @@ div.content img {
     left: 8px;	
 }
 
+.side-title-1, .side-title-2 {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;	
+}
+
+.projects, .instagram {
+    padding-top: 25%;
+}
+
+.side-title-1 {
+    top: 110px;
+    left: 8%;
+}
+
+.side-title-1 h4, .side-title-2 h4 {
+    font-size: 10px;
+}
+
+.side-title-2 {
+    top: 385px;
+    left: 8%;
+}
+
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -74,7 +94,7 @@ div.content img {
 and (max-width : 330px) {
 
 .main h1 {
-	font-size: 23px;
+	font-size: 22px;
 }	
 
 .main h2 {

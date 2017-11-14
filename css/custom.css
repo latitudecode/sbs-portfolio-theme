@@ -1,6 +1,11 @@
 
 /* HOME - main content */
 
+
+body, footer {
+	background-color: #f4f4f4;
+}
+
 .main {
 	max-width: 89%;
 	margin: 9rem auto 0;
@@ -98,12 +103,12 @@ nav a {
 }
 
 .side-title-1 {
-	top: 420px;
+	top: 275px;
 	left: -1%;	
 }
 
 .side-title-2 {
-	top: 1110px;
+	top: 935px;
 	left: -1%;
 }
 
@@ -213,9 +218,8 @@ a:hover .exit {
 
 footer {
     width: 100%;
-    height: 30px;
+    height: 40px;
     z-index: 999999999999 !important;
-    background-color: white;
     position: absolute;
 }
 
