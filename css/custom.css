@@ -6,6 +6,8 @@ body, footer {
 	background-color: #f4f4f4;
 }
 
+
+
 .main {
 	max-width: 89%;
 	margin: 9rem auto 0;
@@ -206,6 +208,81 @@ a:hover .exit {
 	
 }
 
+
+/* PROJECTS */
+
+/* refinery style */ 
+
+body#refinery, #refinery footer {
+	background-color: #2b2b2b;
+}
+
+body#refinery h1,
+body#refinery h2,
+body#refinery .main.next-up h1 a,
+body#refinery .main.next-up h4 {
+	color: #fff;
+}
+
+/* zbs style */ 
+
+body#zbs, #zbs footer {
+	background-color: #213f75;
+}
+
+body#zbs h1,
+body#zbs h2,
+body#zbs .main.next-up h1 a,
+body#zbs .main.next-up h4 {
+	color: #fff;
+}
+
+body#zbs .exit {
+	background-color: #fff;
+
+}
+
+body#zbs .exit span {
+	color: #224075;
+}
+
+/* tms style */ 
+
+
+body#tms h1,
+body#tms h2,
+body#tms .main.next-up h1 a,
+body#tms .main.next-up h4 {
+	color: #7f796a;
+}
+
+body#tms .exit {
+	background-color: #5a5445;
+
+}
+
+body#tms .exit span {
+	color: #7f796a;
+}
+
+/* eames style */ 
+
+
+body#eames h1,
+body#eames h2,
+body#eames .main.next-up h1 a,
+body#eames .main.next-up h4 {
+	color: #000;
+}
+
+body#eames .exit {
+	background-color: #f1563d;
+
+}
+
+body#eames .exit span {
+	color: #fff;
+}
 
 /* Instagram */
 
