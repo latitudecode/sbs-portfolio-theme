@@ -26,22 +26,29 @@ and (max-width : 375px) {
 
 .main h1 {
 	font-size: 28px;
+    letter-spacing: .2px;
 }
 
 .main h2 {
 	font-size: 14px;
+    letter-spacing: .4px;    
+}
+.projects .flickity-slider {
+ left: 0px !important;
 }
 
+
+
 .gallery-cell {
-	height: 200px;
-	width: 78%;
-	margin-right: 35px;
+	height: 250px;
+	width: 100%;
+
 }
 
 .gallery-cell .content h2 {
     font-size: 13px;
     left: 15px;
-    top: 175px;
+    top: 220px;
 }
 
 .main {
@@ -68,9 +75,6 @@ div.content img {
     -o-transform: none;	
 }
 
-.projects, .instagram {
-    padding-top: 25%;
-}
 
 .side-title-1 {
     top: 110px;
@@ -82,10 +86,18 @@ div.content img {
 }
 
 .side-title-2 {
-    top: 385px;
+    top: 415px;
     left: 8%;
 }
 
+
+.projects {
+    padding-top: 20%;
+}
+
+.instagram {
+    padding-top: 40%;
+}
 
 }
 
