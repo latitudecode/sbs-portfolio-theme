@@ -243,7 +243,7 @@ body#zbs .exit {
 }
 
 body#zbs .exit span {
-	color: #224075;
+	background-color: #224075;
 }
 
 /* tms style */ 
