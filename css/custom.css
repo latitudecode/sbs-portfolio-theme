@@ -44,6 +44,10 @@ body, footer {
     letter-spacing: 1px;
 }
 
+figure.content {
+    background-size: cover;
+}
+
 .projects, .instagram {
     padding-top: 8%;
 }

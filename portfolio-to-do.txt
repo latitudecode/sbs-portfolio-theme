@@ -1,0 +1,27 @@
+- Placement (done)
+- Typgoraphy (done) 
+- Transitions (done)
+- Hover actions (done)
+- Other pages (done)
+- Link interactions (done)
+- Responsive (done)
+- Make bg color one css location (done)
+- Image/scaling 
+
+
+
+
+
+to do:
+Refinery content
+TMS content
+Eames content
+
+
+
+Projects: 
+Refinery
+TMS
+ZBS
+Edition
+eames.io / rookieofthyear.o
