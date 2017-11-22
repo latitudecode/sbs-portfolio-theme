@@ -6,8 +6,6 @@ body, footer {
 	background-color: #f4f4f4;
 }
 
-
-
 .main {
 	max-width: 89%;
 	margin: 9rem auto 0;
@@ -67,7 +65,13 @@ figure.content {
     left: -34% !important;
 }
 
+.clear {
+	clear: both;
+}
+
 /* PROJECT - main content */
+
+
 
 div.content {
 	margin-top: 114px;
@@ -82,6 +86,17 @@ div.content img {
     background: #000;
 }
 
+div.content .mobile-wrap {
+	width: 100%;
+	text-align: center;
+	margin: 60px 0px 60px 0px;
+}
+
+div.content .mobile-wrap img {
+	width: 400px;
+	height: auto;
+
+}
 
 .next-up {
 	margin-bottom: 200px;
@@ -248,6 +263,10 @@ body#zbs .exit {
 
 body#zbs .exit span {
 	background-color: #224075;
+}
+
+body#zbs div.content .mobile-wrap {
+	background-color: #213f75;
 }
 
 /* tms style */ 
