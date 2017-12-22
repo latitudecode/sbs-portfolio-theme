@@ -147,6 +147,10 @@ nav a {
 	color: #2b2b2b;
 }
 
+nav ul li {
+	display: inline-block;
+}
+
 .side-title-1, .side-title-2  {
 	float: left;
     position: absolute;	
@@ -187,7 +191,19 @@ nav a {
 	transform: rotate(45deg) translate3d(0,0,0);
 }
 
+.btn-large {
+    border-radius: 25px;
+    background-color: #252525;
+    position: relative;
+    padding: 15px 40px;
+    color: #fff;
+}
 
+.btn-large.download {
+    position: relative;
+    bottom: 20px;
+    margin-right: 12px;
+}
 
 /* typography */
 
@@ -249,12 +265,14 @@ a:hover {
 }
 
 
-a .exit {
+a .exit,
+a .download {
 	-webkit-transition: opacity .8s;
 	transition: opacity .8s;
 }
 
-a:hover .exit {
+a:hover .exit,
+a:hover .download {
 	opacity: .6;
 	
 }
@@ -299,13 +317,19 @@ body#zbs .main.next-up h4 {
 	color: #fff;
 }
 
-body#zbs .exit {
+body#zbs .exit,
+body#zbs .download {
 	background-color: #fff;
 
 }
 
 body#zbs .exit span {
 	background-color: #224075;
+
+}
+
+body#zbs .download {
+	color: #224075; 	
 }
 
 body#zbs div.content .mobile-wrap {
@@ -322,12 +346,14 @@ body#tms .main.next-up h4 {
 	color: #7f796a;
 }
 
-body#tms .exit {
+body#tms .exit,
+body#tms .download {
 	background-color: #5a5445;
 
 }
 
 body#tms .exit span,
+body#tms .download span,
 body#tms .main p,
 body#tms .main p a
   {
