@@ -99,6 +99,14 @@ div.content img {
     padding-top: 40%;
 }
 
+.mobile-wrap {
+    display: inline;
+}
+
+.Desktops-wrap {
+    display: none;
+}
+
 }
 
 /* Smartphones (portrait) ----------- */
