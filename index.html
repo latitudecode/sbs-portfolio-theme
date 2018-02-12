@@ -15,7 +15,8 @@
     <link rel="stylesheet" type="text/css" href="css/flickity.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />     
     <link rel="stylesheet" type="text/css" href="css/fonts.css" /> 
-    <link rel="stylesheet" type="text/css" href="css/media.css" />     
+    <link rel="stylesheet" type="text/css" href="css/media.css" /> 
+    <link rel="stylesheet" type="text/css" href="css/overlay.css" />  
     <!-- JS -->
     <!-- flickity -->
     <script src="js/jquery.min.js"></script>  
@@ -43,6 +44,7 @@
 
 	<h1>Sam Baker-Salmon</h1>
 	<h2>Visual & Interactive Designer</h2>
+
 
 </main>
 
@@ -83,7 +85,12 @@
 <!-- contact -->
 
 <div class="contact">
-  <a href="#"><h4>👋</h4></a>
+  <a id="trigger-overlay" href="#"><h4>👋</h4></a>
+
+</div>
+
+<div class="overlay overlay-scale">
+  <button type="button" class="overlay-close">Close</button>
 </div>
 
 <!-- /contact -->
@@ -110,6 +117,8 @@
 
 
     <!-- JS -->
+
+   
     <!-- flickity -->
     <script>
     var $gallery = $('.gallery').flickity();
@@ -125,6 +134,12 @@
       $('.animsition').animsition();
     });
     </script>
+
+    <!-- contact overlay -->
+    <script src="js/classie.js"></script>
+    <script src="js/modernizr.custom.js"></script>     
+    <script src="js/overlay.js"></script>
+
 
 </div>
 
