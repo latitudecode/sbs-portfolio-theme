@@ -215,10 +215,21 @@ nav ul li {
     position: fixed;
     right: 20px;
     top: 91%;
-    z-index: 99999999999999999999999999 !important;
+
 }
 
-.contact a h4 {
+.contact-close {
+    width: 50px;
+    height: 50px;
+    background-color: #363636;
+    border-radius: 100px;
+    position: fixed;
+    right: 20px;
+    top: 91%;
+
+}
+
+.contact a h4, .contact-close a h4 {
     color: #fff;
     padding: 40% 0px 0px 0px;
     text-align: center;
