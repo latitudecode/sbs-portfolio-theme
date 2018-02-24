@@ -215,7 +215,7 @@ nav ul li {
     position: fixed;
     right: 20px;
     top: 91%;
-
+    z-index: 9999999;
 }
 
 .contact-close {
