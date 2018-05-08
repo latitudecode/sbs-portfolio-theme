@@ -418,6 +418,33 @@ body#eames .exit span {
 	color: #fff;
 }
 
+/* Palisociety style */ 
+
+body#palisociety, #palisociety footer {
+	background-color: #f9f6ef;
+}
+
+body#palisociety h1,
+body#palisociety h2,
+body#palisociety .main.next-up h1 a,
+body#palisociety .main.next-up h4 {
+	color: #22405c;
+}
+
+body#palisociety .exit,
+body#palisociety .download {
+	background-color: #22405c;
+
+}
+
+body#palisociety .exit span,
+body#palisociety .download span,
+body#palisociety .main p,
+body#palisociety .main p a
+  {
+	color: #22405c;
+}
+
 /* Instagram */
 
 .instashow-gallery-container {
